@@ -1,5 +1,5 @@
 {% set name = "pbls" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://git.sr.ht/~rrc/pbls/archive/{{ version }}.tar.gz
-  sha256: 77f2a8fd3c19a5e38a5b090b92ee1f2e7daf4d5f145e51fbf6c92c35661a6e10
+  sha256: cffc6909c1918aef0638cceec3b93186554ffe50f47de681ce58886e5ca2c02c
 
 build:
   number: 0
