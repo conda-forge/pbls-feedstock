@@ -1,8 +1,7 @@
-{% set name = "pbls" %}
 {% set version = "1.0.7" %}
 
 package:
-  name: {{ name|lower }}
+  name: pbls
   version: {{ version }}
 
 source:
@@ -10,7 +9,7 @@ source:
   sha256: cffc6909c1918aef0638cceec3b93186554ffe50f47de681ce58886e5ca2c02c
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
